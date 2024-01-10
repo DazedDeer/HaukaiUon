@@ -1,0 +1,157 @@
+.uc-top-nav {
+    background-color: white;
+}
+
+.uc-bottom-nav {
+    background-color: lightblue;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.uc-footer {
+    background-color: lightblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 2px solid black;
+    font-weight: bold;
+}
+
+
+.uc-nav-link {
+    color: black;
+    margin: 12px;
+}
+
+.uc-nav-link:hover {
+    color: rgb(182, 110, 46);
+}
+
+.uc-active {
+    font-weight: bold;
+}
+
+.uc-title {
+    font-size: 36px;
+}
+
+.uc-img-bg {
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    background: center url(pics/tbl.png) no-repeat;
+}
+
+#uc-home-text {
+    opacity: 0.99;
+    color: black;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+.uc-sides {
+    margin:25px;
+}
+
+.uc-hr {
+    width: 95%;
+    margin:auto;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    border: 1px solid black;
+}
+
+.star {
+    color: rgb(182, 110, 46);
+    margin-bottom: 35px;
+}   
+
+.uc-btn {
+    background-color: lightblue;
+    color:black;
+    margin: 10px;
+}
+
+.uc-btn:hover {
+color: white;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .uc-user {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+
+    .uc-user {
+        font-size: 100px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+
+    .uc-user {
+        font-size: 150px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .uc-user-tx {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+
+    .uc-user-tx {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+
+    .uc-user-tx {
+        font-size: 18px;
+    }
+}
+
+
+.uc-light {
+    background-color: aliceblue;
+}
+
+.uc-margin {
+    margin-top: 15px;
+}
+
+.uc-pdf {
+    width: 100%;
+}
+
+.uc-80 {
+    width: 80%;
+}
+
+.uc-95 {
+    width: 95%;
+}
+
+.uc-h-85 {
+    height: 85%;
+}
